@@ -289,7 +289,89 @@
     </div>
   </div>
 </section>
+<section class="container mt-5 mb-4">
+  <div class="seguridad row">
+    <div class="seguridad-caja col-12 col-md-4">
+      <img src="/img/iphone-illustration-sec.png" alt="iphone clave" class="w-100">
+    </div>
 
+    <div class="seguridad-caja col-12 col-md-8">
+      <h3>Tu seguridad como prioridad</h3>
+      <p class="text-secondary-emphasis">Seguimos las mejores practicas en cyberseguridad sin complicarte tu operacion diaria.</p>
+      <div class="div-cards-seguridad d-flex flex-wrap gap-3">
+        <div class="card card-seguridad shadow">
+          <div class="card-body">
+            <i class="bi bi-eye fs-1 text-danger"></i>
+            <h5 class="card-title fs-4">Biometría</h5>
+            <p class="card-text fw-medium">Nuestra tecnología te permite acceder a tu cuenta usando tu huella digital o tu cara.</p>
+          </div>
+        </div>
+
+        <div class="card card-seguridad shadow">
+          <div class="card-body">
+            <i class="bi bi-fingerprint fs-1 text-primary"></i>
+            <h5 class="card-title fs-4">Segundo Factor</h5>
+            <p class="card-text fw-medium">Usamos un Token invisible para todas las operaciones que hagas.</p>
+          </div>
+        </div>
+
+        <div class="card card-seguridad shadow">
+          <div class="card-body">
+            <i class="bi bi-puzzle fs-1 text-info"></i>
+            <h5 class="card-title fs-4">Personal</h5>
+            <p class="card-text fw-medium">Vas a poder ingresar desde un dispositivo a la vez en tu cuenta.</p>
+          </div>
+        </div>
+
+        <div class="card card-seguridad shadow">
+          <div class="card-body">
+            <i class="bi bi-robot fs-1 text-success"></i>
+            <h5 class="card-title fs-4">100% encriptado</h5>
+            <p class="card-text fw-medium">Todas las transacciones son encriptadas para tu mayor seguridad.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Modal crea tu cuenta -->
+<div class="modal fade" id="modalCrearCuenta" tabindex="-1" aria-labelledby="modalCrearCuentaLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 class="modal-title fs-5" id="modalCrearCuentaLabel">Crea tu cuenta</h2>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p>Completa los siguientes datos para crear tu cuenta:</p>
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre y Apellido *</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ej: Juan Perez">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email *</label>
+          <input type="email" class="form-control" id="email" placeholder="Ej: Juanperez@dominio.com">
+        </div>
+        <div class="mb-3">
+          <label for="contraseña" class="form-label">Contraseña *</label>
+          <input type="password" class="form-control" id="contraseña">
+        </div>
+        <div class="mb-3">
+          <label for="repetirContraseña" class="form-label">Repetir Contraseña *</label>
+          <input type="password" class="form-control" id="repetirContraseña">
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary">Enviar</button>
+    </div>
+  </div>
+</div>
+</div>
 
     <footer class="bg-dark-subtle py-3">
       <div class="container">
